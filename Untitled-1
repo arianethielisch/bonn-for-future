@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Willkommen bei Bonn for Future</title>
+    </head>
+    <h1>BONN for Future
+    <div id="hauptnavi"></div>
+    <ul>
+     <li>
+         <a href="probleme.html">Probleme</a>
+    </li>
+         <a href="Dein Beitrag">Dein Beitrag</a>/li>
+         <a href="Demos">Demos</a>/li>
+     <li> href=" Spenden"</li>
+    </ul>

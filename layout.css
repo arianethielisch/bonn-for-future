@@ -1,0 +1,209 @@
+body {
+    font-family: 'Fira Sans Condensed', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Special Elite';
+
+}
+#pond{
+    display: flex;
+    justify-content: space-between
+      
+}
+
+
+
+   
+
+h1 {
+    color:#00940A
+}
+
+
+h2 {
+    color:#028C6A;
+}
+
+
+a {
+    color:#00940A;
+    text-decoration: none;
+}
+
+
+.page-header {
+    background-color: #fff;
+}
+
+.page-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.logo {
+    font-family: 'Special Elite';
+    font-size: 30px;
+}
+
+.banner img {
+    display: block;
+}
+
+@media (min-width: 756px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 755px) {
+    .hauptnavigation {
+        display: none;
+    }
+
+    .hauptnavigation.sichtbar {
+        background-color: #0a981f;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.hauptnavigation__liste {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 755px) {
+    .hauptnavigation__liste {
+        display: flex;
+    }
+}
+
+
+.hauptnavigation__liste li {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.hauptnavigation__liste a {
+    display: block;
+    padding: 7px 12px;
+}
+
+.hauptnavigation__liste a.aktiv {
+    background-color:#028C6A;
+    color:#F2F2F2;
+}
+
+.container,
+.page-content {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1040px) {
+    .container,
+    .page-content {
+        padding: 0 20px;
+    }
+}
+
+.teaser {
+    border: 1px solid rgb(24, 118, 9);
+    display: block;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 600px) {    
+    .teaser-liste {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .teaser {
+        width: 47.5%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .teaser {
+        width: 30%;
+    }
+
+    .teaser-liste--zwei .teaser {
+        width: 47.5%;
+    }
+}
+
+.spende-teaser {
+    background-image: url(spende-hintergrund.svg);
+    background-size: cover;
+    min-height: 200px;
+}
+
+.spende-teaser .teaser-text {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teaser-bild {
+    display: block;
+}
+
+.teaser-text {
+    padding: 20px;
+}
+
+.teaser-button {
+    background:#028C6A;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.teaser-button-rot {
+    background:;
+   
+}
+
+.teaser-button-spende {
+    background: rgba(255,255,255,0.8);
+    color: #222;
+}
+
+.teaser-button-grossbuchstaben {
+    text-transform: uppercase;
+}
+
+.page-footer {
+    background-color: #F2F2F2;
+    margin-top: 60px;
+    padding: 20px;
+}
